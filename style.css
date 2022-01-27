@@ -29,6 +29,8 @@ a{
   background-color: #2D64E6;
 }
 
+
+
 .ms_text-gray{
   color: #717171;
 }
@@ -42,6 +44,11 @@ a{
   display: flex;
   align-items: center;
   width: 80px;
+}
+
+.nav-item.ms_text-gray:hover{
+  color: black;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu{
@@ -92,17 +99,40 @@ a{
 
 /* MAIN */
 
+.wrap-image-game{
+  opacity: 0.5;
+}
+
 .wrap-image-game, .image-wrap{
   overflow: hidden;
   border-radius: 10px;
 }
 
+.wrap-image-game:hover, .wrap-image-game.active{
+  border: 2px solid #2D64E6;
+  transform: scale(1.10);
+  opacity: 1;
+  box-shadow: 0 9px 10px #363636;
+  transition: all 0.5s ease-out;
+}
+
+.wrap-image-game:hover{
+  position: relative;
+  bottom: 20px;
+}
+
+.wrap-image-game img:hover, .wrap-image-game.active img{
+  border-radius: 10px;
+  padding: 1px;
+}
+
 .products [class*="col"] {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .products [class*="col"]:hover, .products .active{
   opacity: 1;
   border-bottom: 2px solid #2D64E6;
+  transition: opacity 0.2s ease-in-out;
 }
 
