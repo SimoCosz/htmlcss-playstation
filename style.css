@@ -4,9 +4,21 @@ img{
   max-width: 100%;
 }
 
+a{
+  text-decoration: none;
+}
+
 /* UTILITIES */
 .ms_bg-black{
   background-color: black;
+}
+
+.ms_bg-white{
+  background-color: white;
+}
+
+.ms_bg-red{
+  background-color: #CD3D10;
 }
 
 .ms_bg-dgray{
@@ -20,7 +32,14 @@ img{
 .sony-logo a{
   display: flex;
   align-items: center;
-  width: 60px;
+  width: 80px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
 }
 
 .fa-chevron-down{
@@ -30,4 +49,22 @@ img{
 
 .lens{
   width: 25px;
+}
+
+.dropdown-menu li{
+  text-align: center;
+}
+
+.list-dropdown{
+  list-style: disc;
+}
+
+.container-fluid.jumbo{
+  min-height: 590px;
+  background-image: url("img/jumbo-bg.png");
+  background-position: center;
+}
+
+.jumbo_game-title{
+  max-width: 200px;
 }
