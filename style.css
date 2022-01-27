@@ -78,6 +78,14 @@ a{
   background-repeat: no-repeat;
 }
 
+.jumbo-2{
+  min-height: 500px;
+  background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .jumbo_game-title{
   max-width: 200px;
 }
@@ -87,4 +95,13 @@ a{
 .wrap-image-game{
   overflow: hidden;
   border-radius: 10px;
+}
+
+.products [class*="col"] {
+  opacity: 0.6;
+}
+
+.products [class*="col"]:hover, .products .active{
+  opacity: 1;
+  border-bottom: 2px solid #2D64E6;
 }
