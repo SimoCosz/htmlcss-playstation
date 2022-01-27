@@ -92,7 +92,7 @@ a{
 
 /* MAIN */
 
-.wrap-image-game{
+.wrap-image-game, .image-wrap{
   overflow: hidden;
   border-radius: 10px;
 }
@@ -105,3 +105,4 @@ a{
   opacity: 1;
   border-bottom: 2px solid #2D64E6;
 }
+
