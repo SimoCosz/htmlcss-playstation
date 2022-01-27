@@ -25,10 +25,19 @@ a{
   background-color: #363636;
 }
 
+.ms_bg-blue{
+  background-color: #2D64E6;
+}
+
+.ms_text-gray{
+  color: #717171;
+}
+
 
 
 /* STILI */
 
+/* NAVBAR */
 .sony-logo a{
   display: flex;
   align-items: center;
@@ -37,7 +46,7 @@ a{
 
 .navbar-expand-lg .navbar-nav .dropdown-menu{
   position: fixed;
-  top: 80px;
+  top: 90px;
   left: 0;
   right: 0;
 }
@@ -59,12 +68,23 @@ a{
   list-style: disc;
 }
 
-.container-fluid.jumbo{
-  min-height: 590px;
+/* JUMBOTRON */
+
+.jumbo{
+  min-height: 500px;
   background-image: url("img/jumbo-bg.png");
-  background-position: center;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .jumbo_game-title{
   max-width: 200px;
+}
+
+/* MAIN */
+
+.wrap-image-game{
+  overflow: hidden;
+  border-radius: 10px;
 }
