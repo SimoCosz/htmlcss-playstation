@@ -151,7 +151,7 @@ header{
   transition: all 0.3s ease-out;
 }
 
-.wrap-image-game img:hover, .wrap-image-game.active img{
+.thumb-translate:hover .wrap-image-game img, .wrap-image-game.active img{
   border-radius: 10px;
   padding: 2px;
 }
