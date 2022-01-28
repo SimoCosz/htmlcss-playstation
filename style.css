@@ -8,6 +8,10 @@ a{
   text-decoration: none;
 }
 
+header{
+  display: contents;
+}
+
 /* UTILITIES */
 .ms_bg-black{
   background-color: black;
@@ -25,14 +29,38 @@ a{
   background-color: #363636;
 }
 
+.ms_bg-lblack{
+  background-color: #1F1F1F;
+}
+
 .ms_bg-blue{
   background-color: #2D64E6;
+}
+
+.ms_bg-sand{
+  background-color: #BEBCBB;
+}
+
+.ms_bg-lsand{
+  background-color: #D9DADC;
+}
+
+.ms_bg-nightblue{
+  background-color: #151C3B;
+}
+
+.ms_bg-darkwhite{
+  background-color: #F5F5F5;
 }
 
 
 
 .ms_text-gray{
   color: #717171;
+}
+
+.ms_text-blue{
+  color: #2D64E6;
 }
 
 
@@ -78,7 +106,7 @@ a{
 /* JUMBOTRON */
 
 .jumbo{
-  min-height: 500px;
+  min-height: 590px;
   background-image: url("img/jumbo-bg.png");
   background-position: bottom;
   background-size: cover;
@@ -86,7 +114,7 @@ a{
 }
 
 .jumbo-2{
-  min-height: 500px;
+  min-height: 590px;
   background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
   background-position: bottom;
   background-size: cover;
@@ -100,7 +128,8 @@ a{
 /* MAIN */
 
 .wrap-image-game{
-  opacity: 0.5;
+  border: 2px solid transparent;
+  padding: 2;
 }
 
 .wrap-image-game, .image-wrap{
@@ -108,22 +137,19 @@ a{
   border-radius: 10px;
 }
 
-.wrap-image-game:hover, .wrap-image-game.active{
+.thumb-translate:hover .wrap-image-game, .wrap-image-game.active{
   border: 2px solid #2D64E6;
-  transform: scale(1.10);
-  opacity: 1;
-  box-shadow: 0 9px 10px #363636;
-  transition: all 0.5s ease-out;
 }
 
-.wrap-image-game:hover{
-  position: relative;
-  bottom: 20px;
+.thumb-translate:hover .wrap-image-game{
+  box-shadow: 0 9px 6px #363636;
+  transform: translate(0,-15px);
+  transition: all 0.3s ease-out;
 }
 
 .wrap-image-game img:hover, .wrap-image-game.active img{
   border-radius: 10px;
-  padding: 1px;
+  padding: 2px;
 }
 
 .products [class*="col"] {
@@ -136,3 +162,6 @@ a{
   transition: opacity 0.2s ease-in-out;
 }
 
+.logo-plus{
+  max-width: 400px;
+}
