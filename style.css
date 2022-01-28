@@ -8,6 +8,10 @@ a{
   text-decoration: none;
 }
 
+ul, ol{
+  list-style: none;
+}
+
 header{
   display: contents;
 }
@@ -34,7 +38,7 @@ header{
 }
 
 .ms_bg-blue{
-  background-color: #2D64E6;
+  background-color: #00439C;
 }
 
 .ms_bg-sand{
@@ -164,4 +168,35 @@ header{
 
 .logo-plus{
   max-width: 400px;
+}
+
+/* FOOTER */
+
+footer .col-lg-2 li{
+  margin: 5px 0;
+  white-space: nowrap;
+}
+
+footer .col-lg-2 li a{
+  text-decoration: none;
+  color: white;
+}
+
+footer .col-lg-2 li a:hover{
+  text-decoration: underline;
+}
+
+.logo-sie{
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+.copyright{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.copyright a{
+  color: currentColor;
+  text-decoration: underline;
 }
